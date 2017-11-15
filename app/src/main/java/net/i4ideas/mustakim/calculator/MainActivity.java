@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     private int equalButton;
     // Object of input Display
     private TextView inputTextView;
-    
     // Object of input Display
     private TextView displayTextView;
     // Flag for first input
@@ -187,11 +185,11 @@ public class MainActivity extends AppCompatActivity {
                                 //Print in display Text View
                                 displayTextView.setText(String.valueOf(decimalFormat.format(result)));
                             } else {
-                                displayTextView.setText("Infinite");
+                                displayTextView.setText(getText(R.string.infinite));
                             }
                         }
                     } else {
-                        Toast.makeText(getApplicationContext(), "Invalid Input", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getText(R.string.invalid), Toast.LENGTH_SHORT).show();
                     }
                 } else if (isEqualButtonNotUsed == true){
                     displayTextView.setText(currentInput);

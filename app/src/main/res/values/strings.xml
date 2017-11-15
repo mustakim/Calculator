@@ -21,6 +21,8 @@
     <string name="history_title">History</string>
     <string name="back_to_calculator">Back to Calculator</string>
     <string name="infinite">Infinite</string>
+    <string name="invalid">Invalid Input</string>
+    <string name="no_history">No History Found</string>
     <string name="sharedPref_Name">History</string>
     <string name="sharedPref_file_Name">History</string>
 </resources>

@@ -14,6 +14,7 @@
             android:id="@+id/history"
             android:layout_width="30sp"
             android:layout_height="30dp"
+            android:layout_marginLeft="5sp"
             android:src="@mipmap/ic_history"
             android:clickable="true"
             android:onClick="onClickHistoryButton"/>
@@ -121,7 +122,9 @@
                 android:text="@string/decimal"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClickDecimal"/>
+                android:onClick="onClickDecimal"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/Display_Text"/>
 
         </LinearLayout>
 
@@ -225,7 +228,9 @@
                 android:text="@string/equal"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/Display_Text"/>
 
         </LinearLayout>
 
@@ -244,7 +249,9 @@
                 android:text="@string/clear"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClickClear"/>
+                android:onClick="onClickClear"
+                android:background="@color/colorAccent"
+                android:textColor="@color/Display_Text"/>
 
             <TextView
                 android:id="@+id/button_divide"
@@ -255,7 +262,9 @@
                 android:text="@string/division"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/Display_Text"/>
 
             <TextView
                 android:id="@+id/button_multiply"
@@ -266,7 +275,9 @@
                 android:text="@string/multi"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/Display_Text"/>
 
             <TextView
                 android:id="@+id/button_substract"
@@ -277,7 +288,9 @@
                 android:text="@string/minus"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/Display_Text"/>
 
             <TextView
                 android:id="@+id/button_add"
@@ -288,7 +301,9 @@
                 android:text="@string/plus"
                 android:textSize="20dp"
                 android:clickable="true"
-                android:onClick="onClick"/>
+                android:onClick="onClick"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/Display_Text"/>
 
         </LinearLayout>
 
